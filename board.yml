@@ -1,0 +1,6 @@
+board:
+  name: ra4m1_core
+  full_name: WeAct RA4M1-Core
+  vendor: weact
+  socs:
+  - name: r7fa4m1ab3cfm

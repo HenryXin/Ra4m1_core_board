@@ -1,0 +1,14 @@
+identifier: ra4m1_core
+name: Weact_ra4m1_core
+type: mcu
+arch: arm
+ram: 32
+flash: 256
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - gpio
+  - uart
+  - watchdog
+vendor: renesas
