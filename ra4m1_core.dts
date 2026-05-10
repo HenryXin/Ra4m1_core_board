@@ -42,7 +42,7 @@
 };
 
 &xtal {
-	clock-frequency = <DT_FREQ_M(12)>;
+	clock-frequency = <DT_FREQ_M(16)>;
 	mosel = <0>;
 	#clock-cells = <0>;
 	status = "okay";
@@ -55,7 +55,7 @@
 &pll {
 	clocks = <&xtal>;
 	div = <2>;
-	mul = <8 0>;
+	mul = <6 0>;
 	status = "okay";
 };
 
